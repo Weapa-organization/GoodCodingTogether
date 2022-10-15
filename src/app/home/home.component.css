@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+.container{
+    position: fixed;
+    background-color: rgb(45, 45, 120);
+    height: 100%;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.neon2 {
+    border: none;
+    font: normal 48px/normal "Warnes", Helvetica, sans-serif;
+    color: rgba(255,255,255,1);
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;  
+}
+
+.neon {
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: 10px;
+    margin-top: 0;
+    line-height: 1;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+.neon:nth-child(1) {
+    font-family: 'Courier New', Courier, monospace;
+    animation: neon 1.5s ease-in-out infinite alternate;
+}
+  
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
+        0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
+    }
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
+        0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
+    }
+}
+
+
+.list-group-item {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(255,255,255,1);
+    font-size: 32px;
+    background-color: rgb(150, 144, 144);
+}
+
+.row {
+    padding-top: 100px;
+}
