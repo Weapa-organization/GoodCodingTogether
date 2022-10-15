@@ -1,0 +1,77 @@
+.container-button{
+	display:flex;
+  	align-items: center;
+  	justify-content: center;
+	height: 200px;
+}
+
+.btn3d {
+	position: relative;
+	top: -6px;
+	border: 0;
+	transition: all 40ms linear;
+    font-size: 70px;
+}
+
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+	-moz-outline-style: none;
+	outline: medium none;
+}
+
+.btn3d:active,
+.btn3d.active {
+	top: 2px;
+}
+
+.btn3d.btn-danger {
+	box-shadow: 0 0 0 1px #b93802 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #AA0000, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+	background-color: #D73814;
+}
+
+.btn3d.btn-danger:active,
+.btn3d.btn-danger.active {
+	box-shadow: 0 0 0 1px #b93802 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+	background-color: #D73814;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+
+.btncool {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px transparent;
+  outline: none;
+  transition: 1s ease-in-out;
+  position: absolute;
+}
+
+svg {
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+  position: absolute;
+}
+
+.btncool:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.btncool:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btncool span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
