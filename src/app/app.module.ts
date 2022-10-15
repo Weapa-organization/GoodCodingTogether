@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { ImageDisplayComponent } from './image-display/image-display.component';
 import { HomeComponent } from './home/home.component';
+import { CoolButtonComponent } from './cool-button/cool-button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     ImageDisplayComponent,
-    HomeComponent
+    HomeComponent,
+    CoolButtonComponent
   ],
   imports: [
     BrowserModule,
