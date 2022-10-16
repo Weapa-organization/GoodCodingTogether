@@ -72,3 +72,56 @@ body {
   background: none;
   color: #ECEFF1;
 }
+
+.btn-play {
+  border-color: #40963c;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #40963c inset, 0 0 0 0 #40963c;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  text-align: center;
+}
+.btn-play:hover {
+  box-shadow: 0 0 10px 0 #40963c inset, 0 0 10px 4px #40963c;
+}
+
+.btn-pause {
+  border-color: #963c3c;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #963c3c inset, 0 0 0 0 #963c3c;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  text-align: center;
+}
+.btn-pause:hover {
+  box-shadow: 0 0 10px 0 #963c3c inset, 0 0 10px 4px #963c3c;
+}
+
+
+.fixed-bottom {
+  max-width: 250px;
+  box-sizing: border-box;
+  background-color: transparent;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.fixed-bottom:hover, .fixed-bottom:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.bi{
+  margin-left: 106px;
+}

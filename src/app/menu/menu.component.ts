@@ -7,9 +7,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
-  constructor() { }
+  sonido:any
+  reproductorActivo:boolean
+
+  constructor() { 
+    this.reproductorActivo = false
+  }
 
   ngOnInit(): void {
+    this.sonido = new Audio()
+    this.sonido.src = "../assets/audio/nuclearParty.mp3"
   }
+
+  play(){
+    this.reproductorActivo = true
+    this.sonido.play()
+  }
+
+  pause(){
+    this.reproductorActivo = false
+    this.sonido.pause()
+  }
+
+
 
 }
