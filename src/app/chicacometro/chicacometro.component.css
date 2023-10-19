@@ -1,0 +1,8 @@
+.container{
+    position: fixed;
+    background-color: rgb(45, 45, 120);
+    height: 100%;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
